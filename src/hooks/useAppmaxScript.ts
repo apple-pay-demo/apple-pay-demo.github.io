@@ -62,7 +62,7 @@ export function useAppmaxScript({
     // injeta
     const script = document.createElement("script");
     script.id = "appmax-script";
-    script.src = src;
+    script.src = `/appmax.min.js`;
     script.async = true;
     script.onload = () => {
       if (window.AppmaxScripts) {
