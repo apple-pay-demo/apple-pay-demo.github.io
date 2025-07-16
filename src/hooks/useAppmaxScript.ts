@@ -1,6 +1,19 @@
 import { onMounted, watch } from "vue";
 import type { Ref } from "vue";
 
+declare global {
+  interface Window {
+    AppmaxScripts?: {
+      init: (
+        onSuccess: (token?: any) => void,
+        onError: (error: unknown) => void,
+        externalId: number,
+        onUpdate: () => UpdatedCheckoutData
+      ) => void;
+    };
+  }
+}
+
 interface UpdatedCheckoutData {
   total: number;
   freight?: number;
