@@ -1,7 +1,7 @@
 {
-  "name": "checkout-apple-pay.github.io",
-  "private": true,
+  "name": "checkout-apple-pay",
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
-    "vite": "^7.0.4"
+    "vite": "^7.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
   }
 }
