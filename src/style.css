@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply text-gray-100;
+    @apply bg-dark-blue text-gray-100;
   }
 }
