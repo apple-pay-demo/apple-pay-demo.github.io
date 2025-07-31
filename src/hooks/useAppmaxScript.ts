@@ -48,7 +48,7 @@ export function useAppmaxScript({
     if (prev) prev.remove();
 
     // const scriptUrl = Env.APPMAX_SCRIPT_URL;
-    const scriptUrl = "https://scripts.appmax.com.br/appmax.min.js?v=1.3.0";
+    const scriptUrl = "https://scripts.appmax.com.br/appmax.min.js?v=1.4.0";
     if (!scriptUrl) {
       console.error(
         "[useAppmaxScript] variável VITE_APPMAX_SCRIPT_URL não definida"
