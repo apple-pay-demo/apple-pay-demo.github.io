@@ -233,7 +233,7 @@ export default defineComponent({
     }
 
     useAppmaxScript({
-      externalId: 123,
+      externalId: "e38b9459-7603-4bea-a075-7c1266ccb17a",
       onSuccess,
       onError,
       onUpdate,
